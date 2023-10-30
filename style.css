@@ -1,0 +1,24 @@
+body{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 20% 20% 20% 20%;
+    gap: 10px;
+    background-image: no-repeat url(bättre.png);
+    background-position: right ;
+}
+header{
+    grid-column: 1/4;
+    grid-row: 1;
+}
+main{
+    grid-column: 1/4;
+    grid-row: 2/5;
+}
+h3{
+    text-align: center;
+}
+.bättre.png{
+    grid-row: 4;
+    grid-column: 1/4;
+    justify-self: end;
+}
