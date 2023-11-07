@@ -1,10 +1,15 @@
 body{
+    width: 1440px;
+    height: 1024px;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 20% 20% 20% 20%;
     gap: 10px;
-    background-image: no-repeat url(bättre.png);
-    background-position: right ;
+    background-image: url(bättre.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 560px 1068px;
+    
 }
 header{
     grid-column: 1/4;
@@ -16,9 +21,4 @@ main{
 }
 h3{
     text-align: center;
-}
-.bättre.png{
-    grid-row: 4;
-    grid-column: 1/4;
-    justify-self: end;
 }
