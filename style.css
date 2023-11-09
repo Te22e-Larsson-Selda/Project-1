@@ -5,20 +5,129 @@ body{
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 20% 20% 20% 20%;
     gap: 10px;
+    background-color: white;
     background-image: url(bättre.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 560px 1068px;
-    
 }
 header{
     grid-column: 1/4;
     grid-row: 1;
 }
 main{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 20% 20% 20% 20%;
     grid-column: 1/4;
     grid-row: 2/5;
 }
-h3{
+h2{
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Vit{
     text-align: center;
+    color: #000;
+}
+.Grå{
+    text-align: center;
+    color: #474747;
+}
+h4{
+    grid-row: 1/2;
+    grid-column: 2;
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+.I{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.R2{
+    width: 800px;
+    height: 230px;
+    margin-left: 20px;
+
+    color: #888;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    grid-column: 1;
+    grid-row: 1;
+}
+.R1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div{
+    background: #D9D9D9;
+    padding: 5px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    grid-row: 3;
+    grid-column: 1;
+
+    width: 450px;
+    height: 90px;
+    border-radius: 27px;
+}
+.div2{
+    grid-row: 4;
+    grid-column: 1/2;
+
+    width: 1300px;
+    height: 475px;
+    border-radius: 35px;
+}
+.div2-5{
+    display: flex;
+    flex-direction: row;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    width: 433px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+    width: 433px;
+    background-color: #888;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
